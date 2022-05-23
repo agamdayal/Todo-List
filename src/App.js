@@ -39,7 +39,7 @@ function App() {
       }));
   };
 
- 
+ // Checking
   const [todos, settodos] = useState(initTodo);
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos))
